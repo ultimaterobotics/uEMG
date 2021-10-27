@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="uemg_monitor_sdl" InternalType="GUI" Version="10.0.0">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="main.c"/>
+    <File Name="serial_functions.h"/>
+    <File Name="serial_functions.c"/>
+    <File Name="drawing.c"/>
+    <File Name="drawing.h"/>
+    <File Name="simplechart.h"/>
+    <File Name="simplechart.c"/>
+    <File Name="device_functions.h"/>
+    <File Name="device_functions.c"/>
+    <File Name="fft.c"/>
+    <File Name="fft.h"/>
+    <File Name="sft.c"/>
+    <File Name="sft.h"/>
+    <File Name="spectrogram.c"/>
+    <File Name="spectrogram.h"/>
+    <File Name="font_a.h"/>
+    <File Name="nn_mlp.c"/>
+    <File Name="nn_mlp.h"/>
+    <File Name="nn_dataset.h"/>
+    <File Name="nn_dataset.c"/>
+    <File Name="save_processing.h"/>
+    <File Name="save_processing.c"/>
+    <File Name="nn_adaptive_map.h"/>
+    <File Name="nn_adaptive_map.c"/>
+    <File Name="quat_math.c"/>
+    <File Name="quat_math.h"/>
+    <File Name="keyb_mouse_emu.h"/>
+    <File Name="keyb_mouse_emu.c"/>
+    <File Name="pca_processor.h"/>
+    <File Name="pca_processor.c"/>
+    <File Name="qr_factorize.h"/>
+    <File Name="qr_factorize.c"/>
+    <File Name="win_main.c"/>
+    <File Name="data_processing.c"/>
+    <File Name="data_processing.h"/>
+    <File Name="image_loader.c"/>
+    <File Name="image_loader.h"/>
+    <File Name="processing_kmeans.h"/>
+    <File Name="processing_kmeans.c"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-Wall;-O0" C_Options="-g;-Wall;-O0;$(shell pkg-config --cflags gtk+-2.0)" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="$(shell pkg-config --libs gtk+-2.0)" Required="yes">
+        <Library Value="SDL"/>
+        <Library Value="SDL_ttf"/>
+        <Library Value="X11"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O3;-Wall" C_Options="-O3;-Wall;$(shell pkg-config --cflags gtk+-2.0)" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="$(shell pkg-config --libs gtk+-2.0)" Required="yes">
+        <Library Value="SDL"/>
+        <Library Value="SDL_ttf"/>
+        <Library Value="X11"/>
+        <Library Value="png"/>
+        <Library Value="Xtst"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand>make clean
+make</RebuildCommand>
+        <CleanCommand>make clean</CleanCommand>
+        <BuildCommand>make</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory>/home/the_3d6/robotics/nrf5/nrf52_proj/uemg_monitor_sdl</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

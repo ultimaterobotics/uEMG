@@ -1,4 +1,4 @@
-18105387677054569
+18157065977157099
 AP1509-50SG-13
 SO08
 <b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>body 3.9 mm/JEDEC MS-012AA
@@ -65617,6 +65617,69 @@ Transformer Toroid tapped horizontal laying Diameter 14mm Amidon T50
 0
 6
 6
+Type-C
+12401598E4#2A
+
+
+0
+28
+28
+Type-C
+HRO-TYPE-C-31-M-12
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-12-HandSoldering
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-13
+
+
+0
+16
+13
+Type-C
+USB_C_GCT_USB4085
+
+
+0
+20
+17
+Type-C
+Wurth-632723300011
+
+
+0
+32
+27
+Type-C
+Wurth-632723300011-HandSoldering
+
+
+0
+30
+26
+Type-C
+Wurth-632723300011-MaximumExtensionMount
+
+
+0
+32
+27
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -69692,6 +69755,13 @@ C_Array_4
 8
 8
 ultimate_library
+ChipLED_2x2
+
+
+0
+6
+6
+ultimate_library
 Crystal_SMD_2016-4Pin_2.0x1.6mm
 SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package
 SMD SMT crystal
@@ -69705,6 +69775,20 @@ SMD SMT crystal
 0
 4
 4
+ultimate_library
+DN007_1_antenna
+
+
+0
+10
+2
+ultimate_library
+ENC_PEC12R-4025F-S0024
+
+
+0
+5
+5
 ultimate_library
 FCBGA-5N
 
@@ -69727,12 +69811,26 @@ te fpc 84952
 8
 7
 ultimate_library
+GCT_USB4080-03-A_REVA
+
+
+0
+28
+28
+ultimate_library
 GND_CONN
 
 
 0
 2
 2
+ultimate_library
+ISP_POGO
+
+
+0
+6
+6
 ultimate_library
 LED_RGB_0603
 RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
@@ -69769,12 +69867,54 @@ te fpc 84952
 8
 7
 ultimate_library
+MSOP10
+
+
+0
+10
+10
+ultimate_library
+Molex-52207-0633-Manufacturer_Recommended
+
+
+0
+8
+8
+ultimate_library
+Molex-52793-0670-Manufacturer_Recommended
+
+
+0
+8
+8
+ultimate_library
+PCA9685_module
+
+
+0
+6
+6
+ultimate_library
+PQFN50P200X200X80-10N
+
+
+0
+10
+10
+ultimate_library
+PQFN50P300X250X88-14N
+
+
+0
+14
+14
+ultimate_library
 Panasonic_EVQP4
 http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
 SMD SMT SPST EVQPUJ EVQPUA
 0
 4
-2
+4
 ultimate_library
 QFN-48-1EP_6x6mm_Pitch0.4mm
 48-Lead Plastic Quad Flat, No Lead Package - 6x6 mm Body [QFN] with thermal vias; see figure 7.2 of https://static.dev.sifive.com/SiFive-FE310-G000-datasheet-v1.0.4.pdf
@@ -69804,6 +69944,41 @@ QFN40P300X300X105-25N
 25
 25
 ultimate_library
+QFP50P900X900X160-48N
+48-LQFP (7x7)-
+Integrated Circuit
+0
+48
+48
+ultimate_library
+QFP50P900X900X160-48N_pads_0_28
+48-LQFP (7x7)-
+Integrated Circuit
+0
+48
+48
+ultimate_library
+SFN-1207PA5.0
+
+
+0
+2
+2
+ultimate_library
+SO016
+
+
+0
+16
+16
+ultimate_library
+SO16
+<b>Small Outline package</b> 150 mil
+
+0
+16
+16
+ultimate_library
 SOP65P780X200-20N
 
 
@@ -69831,6 +70006,13 @@ SOT23-5L
 0
 5
 5
+ultimate_library
+SOT95P284X110-6N
+SOT23-6
+Integrated Circuit
+0
+6
+6
 ultimate_library
 SS-1290
 
@@ -69860,12 +70042,26 @@ SWD_ultimate_conn_v1
 4
 4
 ultimate_library
+TE_292303-1
+
+
+0
+6
+6
+ultimate_library
 UDFN4_1EP-7MIL
 
 
 0
 14
 5
+ultimate_library
+VISHAY_VEML6040_1.25X2X1
+
+
+0
+4
+4
 ultimate_library
 VM1000
 
@@ -69880,6 +70076,13 @@ X4-SMD-3.2X2.5X0.7MM
 0
 4
 4
+ultimate_library
+XDCR_SHT31-DIS-F2.5KS
+
+
+0
+9
+9
 ultimate_library
 conn_06_20
 
@@ -69901,6 +70104,20 @@ USB B micro SMD connector with retention pins
 0
 9
 6
+ultimate_library
+snap_connector
+
+
+0
+1
+1
+ultimate_library
+textile_button_6mm
+
+
+0
+2
+1
 w_battery_holders
 keystone_103
 Keystone type 103 battery holder
@@ -79953,6 +80170,13 @@ Cree XB
 0
 5
 3
+w_smd_leds
+Cree_XLampXMLColor_1147431
+Cree MC-E
+
+0
+9
+9
 w_smd_leds
 Cree_XM
 Cree XM

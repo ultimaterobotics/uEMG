@@ -1,0 +1,1 @@
+build//uEMG/main.c.o build//uEMG/mcp3912.c.o build//uEMG/leds.c.o build//uEMG/bmi160.c.o build//uEMG/fft_opt.c.o build//uEMG/fast_math.c.o build//uEMG/imu_fusion.c.o build//uEMG/urf_radio.c.o build//uEMG/urf_timer.c.o build//uEMG/urf_star_protocol.c.o build//uEMG/gcc_startup_nrf52.S.o build//uEMG/system_nrf52.c.o  -lc -lnosys -lm

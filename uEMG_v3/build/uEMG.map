@@ -1,0 +1,1338 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+                              /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+/home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+                              /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                              /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+/home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                              /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+/home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+                              /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o) (_exit)
+/home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build//uEMG/mcp3912.c.o (__aeabi_dsub)
+/home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                              build//uEMG/mcp3912.c.o (__aeabi_dmul)
+/home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                              build//uEMG/fast_math.c.o (__aeabi_dcmplt)
+/home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+                              build//uEMG/mcp3912.c.o (__aeabi_d2f)
+
+Allocating common symbols
+Common symbol       size              file
+
+led_pin_mask        0x10              build//uEMG/leds.c.o
+in_pack             0x100             build//uEMG/urf_star_protocol.c.o
+fft_spectr          0x200             build//uEMG/mcp3912.c.o
+led_pins            0x4               build//uEMG/leds.c.o
+resp_crc_fail       0x20              build//uEMG/urf_radio.c.o
+prev_emg_raw        0x80              build//uEMG/mcp3912.c.o
+buf_pack            0x100             build//uEMG/urf_star_protocol.c.o
+mcp                 0xc               build//uEMG/main.c.o
+fft_buf1_r          0x200             build//uEMG/mcp3912.c.o
+fft_buf1_i          0x200             build//uEMG/mcp3912.c.o
+emg_raw             0x80              build//uEMG/mcp3912.c.o
+node_list           0x100             build//uEMG/urf_star_protocol.c.o
+node_active         0x100             build//uEMG/urf_star_protocol.c.o
+conf0_reg           0x4               build//uEMG/mcp3912.c.o
+mcp_buf_sp2         0x40              build//uEMG/main.c.o
+data_packet         0x102             build//uEMG/main.c.o
+cur_out_pack        0x100             build//uEMG/urf_star_protocol.c.o
+pwm_seq             0x10              build//uEMG/leds.c.o
+Qsg                 0x10              build//uEMG/imu_fusion.c.o
+gain_reg            0x4               build//uEMG/mcp3912.c.o
+conf1_reg           0x4               build//uEMG/mcp3912.c.o
+resp_crc_ok         0x20              build//uEMG/urf_radio.c.o
+fft_buf2_r          0x200             build//uEMG/mcp3912.c.o
+tx_packet           0x100             build//uEMG/urf_radio.c.o
+statcom_reg         0x4               build//uEMG/mcp3912.c.o
+stat                0x1               build//uEMG/bmi160.c.o
+fft_buf2_i          0x200             build//uEMG/mcp3912.c.o
+cur_data            0x10              build//uEMG/mcp3912.c.o
+rx_packet           0x100             build//uEMG/urf_radio.c.o
+bmi                 0x64              build//uEMG/bmi160.c.o
+pack_payload        0x4               build//uEMG/urf_radio.c.o
+mcp_buffer          0x208             build//uEMG/main.c.o
+cur_q               0x10              build//uEMG/imu_fusion.c.o
+node_pack_id        0x40              build//uEMG/urf_star_protocol.c.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x0000000000000000        0x0 build//uEMG/main.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/main.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/main.c.o
+ .text.NVIC_EnableIRQ
+                0x0000000000000000       0x34 build//uEMG/main.c.o
+ .data.battery_low_threshold
+                0x0000000000000000        0x4 build//uEMG/main.c.o
+ .bss.spectr_part2_pending
+                0x0000000000000000        0x4 build//uEMG/main.c.o
+ .bss.spectr_part2_time
+                0x0000000000000000        0x4 build//uEMG/main.c.o
+ .text.slow_clock_start
+                0x0000000000000000       0x2e build//uEMG/main.c.o
+ .text.fast_clock_stop
+                0x0000000000000000       0x14 build//uEMG/main.c.o
+ .text.mode_lowbatt
+                0x0000000000000000       0x60 build//uEMG/main.c.o
+ .text.start_rtc
+                0x0000000000000000       0x60 build//uEMG/main.c.o
+ .text.mode_idle
+                0x0000000000000000       0x14 build//uEMG/main.c.o
+ .text.mode_resume_idle
+                0x0000000000000000       0x14 build//uEMG/main.c.o
+ .text.low_power_cycle
+                0x0000000000000000       0x24 build//uEMG/main.c.o
+ .text.switch_to_ble
+                0x0000000000000000        0xe build//uEMG/main.c.o
+ .text.switch_to_fr32
+                0x0000000000000000        0xe build//uEMG/main.c.o
+ .text.switch_to_fr48
+                0x0000000000000000        0xe build//uEMG/main.c.o
+ .text.switch_to_fr64
+                0x0000000000000000        0xe build//uEMG/main.c.o
+ .text          0x0000000000000000        0x0 build//uEMG/mcp3912.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/mcp3912.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/mcp3912.c.o
+ .text.mcp_write_reg8
+                0x0000000000000000       0x98 build//uEMG/mcp3912.c.o
+ .text.mcp_read_reg8
+                0x0000000000000000       0xa0 build//uEMG/mcp3912.c.o
+ .text.mcp_read_buf
+                0x0000000000000000       0xc0 build//uEMG/mcp3912.c.o
+ .text.mcp_write_buf
+                0x0000000000000000       0xb8 build//uEMG/mcp3912.c.o
+ .text.mcp3912_read_reg8
+                0x0000000000000000       0xa8 build//uEMG/mcp3912.c.o
+ .text.mcp3912_read_reg16
+                0x0000000000000000       0xe4 build//uEMG/mcp3912.c.o
+ .text.mcp3912_read_reg32
+                0x0000000000000000       0xc8 build//uEMG/mcp3912.c.o
+ .text.mcp3912_read_all24
+                0x0000000000000000      0x120 build//uEMG/mcp3912.c.o
+ .text.mcp3912_read_all32
+                0x0000000000000000      0x134 build//uEMG/mcp3912.c.o
+ .text.mcp3912_continuous_start
+                0x0000000000000000       0x60 build//uEMG/mcp3912.c.o
+ .text.mcp3912_continuous_read16
+                0x0000000000000000       0x9c build//uEMG/mcp3912.c.o
+ .text.mcp3912_continuous_read24
+                0x0000000000000000       0x80 build//uEMG/mcp3912.c.o
+ .text.stop_mcp_clock
+                0x0000000000000000       0x18 build//uEMG/mcp3912.c.o
+ .text.get_cur_fft_buf
+                0x0000000000000000       0x88 build//uEMG/mcp3912.c.o
+ .bss.av        0x0000000000000000        0x4 build//uEMG/mcp3912.c.o
+ .bss.ch_to_read
+                0x0000000000000000        0x4 build//uEMG/mcp3912.c.o
+ .text.mcp3912_get_data_buf
+                0x0000000000000000       0x14 build//uEMG/mcp3912.c.o
+ .text          0x0000000000000000        0x0 build//uEMG/leds.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/leds.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/leds.c.o
+ .bss.led_set_mask
+                0x0000000000000000        0x4 build//uEMG/leds.c.o
+ .bss.led_pulse_length
+                0x0000000000000000        0x4 build//uEMG/leds.c.o
+ .text          0x0000000000000000        0x0 build//uEMG/bmi160.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/bmi160.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/bmi160.c.o
+ .text.bmi_read_fifo
+                0x0000000000000000      0x114 build//uEMG/bmi160.c.o
+ .text.bmi160_get_status
+                0x0000000000000000       0x10 build//uEMG/bmi160.c.o
+ .text.bmi160_stop
+                0x0000000000000000       0x30 build//uEMG/bmi160.c.o
+ .text.bmi160_resume
+                0x0000000000000000       0x38 build//uEMG/bmi160.c.o
+ .text.bmi160_lp_mode
+                0x0000000000000000       0x42 build//uEMG/bmi160.c.o
+ .text.bmi160_acc_mode
+                0x0000000000000000       0xc8 build//uEMG/bmi160.c.o
+ .text          0x0000000000000000        0x0 build//uEMG/fft_opt.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/fft_opt.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/fft_opt.c.o
+ .rodata.exp_table
+                0x0000000000000000      0x208 build//uEMG/fft_opt.c.o
+ .text.fft_radix8_butterfly_64
+                0x0000000000000000      0xf8c build//uEMG/fft_opt.c.o
+ .text          0x0000000000000000        0x0 build//uEMG/fast_math.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/fast_math.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/fast_math.c.o
+ .text          0x0000000000000000        0x0 build//uEMG/imu_fusion.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/imu_fusion.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/imu_fusion.c.o
+ .text.qv_mult  0x0000000000000000       0xc6 build//uEMG/imu_fusion.c.o
+ .text.rotate_to_ground
+                0x0000000000000000       0x1c build//uEMG/imu_fusion.c.o
+ .text          0x0000000000000000        0x0 build//uEMG/urf_radio.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/urf_radio.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/urf_radio.c.o
+ .text.rf_mode_tx_only
+                0x0000000000000000       0x50 build//uEMG/urf_radio.c.o
+ .text.rf_send  0x0000000000000000       0x78 build//uEMG/urf_radio.c.o
+ .text.rf_autorespond_on
+                0x0000000000000000       0xa0 build//uEMG/urf_radio.c.o
+ .text.rf_autorespond_off
+                0x0000000000000000       0x18 build//uEMG/urf_radio.c.o
+ .text.rf_override_irq
+                0x0000000000000000       0x20 build//uEMG/urf_radio.c.o
+ .text.rf_attach_rx_irq
+                0x0000000000000000       0x20 build//uEMG/urf_radio.c.o
+ .text.rf_dettach_rx_irq
+                0x0000000000000000       0x18 build//uEMG/urf_radio.c.o
+ .text.rf_attach_tx_irq
+                0x0000000000000000       0x20 build//uEMG/urf_radio.c.o
+ .text.rf_dettach_tx_irq
+                0x0000000000000000       0x18 build//uEMG/urf_radio.c.o
+ .text.rf_get_ack_state
+                0x0000000000000000       0x18 build//uEMG/urf_radio.c.o
+ .text          0x0000000000000000        0x0 build//uEMG/urf_timer.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/urf_timer.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/urf_timer.c.o
+ .text.NVIC_DisableIRQ
+                0x0000000000000000       0x34 build//uEMG/urf_timer.c.o
+ .bss.phase     0x0000000000000000        0x1 build//uEMG/urf_timer.c.o
+ .text.time_pause
+                0x0000000000000000       0x18 build//uEMG/urf_timer.c.o
+ .text.time_resume
+                0x0000000000000000       0x18 build//uEMG/urf_timer.c.o
+ .text.time_stop
+                0x0000000000000000       0x24 build//uEMG/urf_timer.c.o
+ .text.micros_count
+                0x0000000000000000       0x18 build//uEMG/urf_timer.c.o
+ .text.seconds  0x0000000000000000       0x18 build//uEMG/urf_timer.c.o
+ .bss.timed_event_repeat
+                0x0000000000000000        0x4 build//uEMG/urf_timer.c.o
+ .text.schedule_event
+                0x0000000000000000       0xa4 build//uEMG/urf_timer.c.o
+ .text.schedule_event_delayed
+                0x0000000000000000       0x34 build//uEMG/urf_timer.c.o
+ .text.schedule_subevent
+                0x0000000000000000       0x48 build//uEMG/urf_timer.c.o
+ .text.schedule_event_stop
+                0x0000000000000000       0x18 build//uEMG/urf_timer.c.o
+ .text.schedule_event_adjust
+                0x0000000000000000       0x28 build//uEMG/urf_timer.c.o
+ .text.time_adjust
+                0x0000000000000000       0x60 build//uEMG/urf_timer.c.o
+ .text.delay_mcs
+                0x0000000000000000       0x50 build//uEMG/urf_timer.c.o
+ .text          0x0000000000000000        0x0 build//uEMG/urf_star_protocol.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/urf_star_protocol.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/urf_star_protocol.c.o
+ .data.no_sync_timeout
+                0x0000000000000000        0x4 build//uEMG/urf_star_protocol.c.o
+ .bss.last_pack_sent
+                0x0000000000000000        0x4 build//uEMG/urf_star_protocol.c.o
+ .data.nonstar_send_interval_mcs
+                0x0000000000000000        0x4 build//uEMG/urf_star_protocol.c.o
+ .text.star_has_packet
+                0x0000000000000000       0x18 build//uEMG/urf_star_protocol.c.o
+ .text.star_get_packet
+                0x0000000000000000       0x64 build//uEMG/urf_star_protocol.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/gcc_startup_nrf52.S.o
+ .bss           0x0000000000000000        0x0 build//uEMG/gcc_startup_nrf52.S.o
+ .text          0x0000000000000000        0x0 build//uEMG/system_nrf52.c.o
+ .data          0x0000000000000000        0x0 build//uEMG/system_nrf52.c.o
+ .bss           0x0000000000000000        0x0 build//uEMG/system_nrf52.c.o
+ .text          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .text          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x0000000000000000        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000004000 0x0000000000080000 xr
+RAM              0x0000000020000000 0x0000000000010000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000004000     0x6130
+ *(.isr_vector)
+ .isr_vector    0x0000000000004000      0x200 build//uEMG/gcc_startup_nrf52.S.o
+                0x0000000000004000                __isr_vector
+ *(.text*)
+ .text          0x0000000000004200       0x40 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x0000000000004240       0x74 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                0x0000000000004240                _mainCRTStartup
+                0x0000000000004240                _start
+ .text.prepare_data_packet
+                0x00000000000042b4      0x50c build//uEMG/main.c.o
+                0x00000000000042b4                prepare_data_packet
+ .text.push_mcp_data
+                0x00000000000047c0      0x3f8 build//uEMG/main.c.o
+                0x00000000000047c0                push_mcp_data
+ .text.fast_clock_start
+                0x0000000000004bb8       0x2e build//uEMG/main.c.o
+                0x0000000000004bb8                fast_clock_start
+ *fill*         0x0000000000004be6        0x2 
+ .text.stop_rtc
+                0x0000000000004be8       0x18 build//uEMG/main.c.o
+                0x0000000000004be8                stop_rtc
+ .text.RTC1_IRQHandler
+                0x0000000000004c00       0x2c build//uEMG/main.c.o
+                0x0000000000004c00                RTC1_IRQHandler
+ .text.read_battery
+                0x0000000000004c2c      0x164 build//uEMG/main.c.o
+                0x0000000000004c2c                read_battery
+ .text.process_btn_short
+                0x0000000000004d90       0x28 build//uEMG/main.c.o
+                0x0000000000004d90                process_btn_short
+ .text.process_btn_long
+                0x0000000000004db8       0x28 build//uEMG/main.c.o
+                0x0000000000004db8                process_btn_long
+ .text.main     0x0000000000004de0      0x420 build//uEMG/main.c.o
+                0x0000000000004de0                main
+ .text.NVIC_EnableIRQ
+                0x0000000000005200       0x34 build//uEMG/mcp3912.c.o
+ .text.NVIC_ClearPendingIRQ
+                0x0000000000005234       0x34 build//uEMG/mcp3912.c.o
+ .text.NVIC_SetPriority
+                0x0000000000005268       0x54 build//uEMG/mcp3912.c.o
+ .text.nrf_gpio_pin_port_decode
+                0x00000000000052bc       0x18 build//uEMG/mcp3912.c.o
+ .text.nrf_gpio_cfg
+                0x00000000000052d4       0x54 build//uEMG/mcp3912.c.o
+ .text.nrf_gpio_cfg_output
+                0x0000000000005328       0x24 build//uEMG/mcp3912.c.o
+ .text.nrf_gpio_cfg_input
+                0x000000000000534c       0x2a build//uEMG/mcp3912.c.o
+ *fill*         0x0000000000005376        0x2 
+ .text.init_spi_mcp
+                0x0000000000005378       0x54 build//uEMG/mcp3912.c.o
+                0x0000000000005378                init_spi_mcp
+ .text.mcp3912_write_reg
+                0x00000000000053cc       0xdc build//uEMG/mcp3912.c.o
+                0x00000000000053cc                mcp3912_write_reg
+ .text.mcp3912_read_reg24
+                0x00000000000054a8       0xc8 build//uEMG/mcp3912.c.o
+                0x00000000000054a8                mcp3912_read_reg24
+ .text.mcp3912_read_all16
+                0x0000000000005570       0xdc build//uEMG/mcp3912.c.o
+                0x0000000000005570                mcp3912_read_all16
+ .text.start_mcp_clock
+                0x000000000000564c       0x98 build//uEMG/mcp3912.c.o
+                0x000000000000564c                start_mcp_clock
+ *fill*         0x00000000000056e4        0x4 
+ .text.mcp_filter_data
+                0x00000000000056e8      0x70c build//uEMG/mcp3912.c.o
+                0x00000000000056e8                mcp_filter_data
+ .text.FPU_IRQHandler
+                0x0000000000005df4       0x30 build//uEMG/mcp3912.c.o
+                0x0000000000005df4                FPU_IRQHandler
+ .text.mcp_fft_process
+                0x0000000000005e24      0x1e8 build//uEMG/mcp3912.c.o
+                0x0000000000005e24                mcp_fft_process
+ .text.mcp_fft_get_spectr
+                0x000000000000600c       0x14 build//uEMG/mcp3912.c.o
+                0x000000000000600c                mcp_fft_get_spectr
+ .text.mcp_fft_get_raw
+                0x0000000000006020       0x14 build//uEMG/mcp3912.c.o
+                0x0000000000006020                mcp_fft_get_raw
+ .text.mcp_fft_mode
+                0x0000000000006034       0x30 build//uEMG/mcp3912.c.o
+                0x0000000000006034                mcp_fft_mode
+ .text.GPIOTE_IRQHandler
+                0x0000000000006064       0x54 build//uEMG/mcp3912.c.o
+                0x0000000000006064                GPIOTE_IRQHandler
+ .text.init_mcp3912
+                0x00000000000060b8      0x1fc build//uEMG/mcp3912.c.o
+                0x00000000000060b8                init_mcp3912
+ .text.mcp3912_read
+                0x00000000000062b4       0x28 build//uEMG/mcp3912.c.o
+                0x00000000000062b4                mcp3912_read
+ .text.mcp3912_is_ok
+                0x00000000000062dc       0x18 build//uEMG/mcp3912.c.o
+                0x00000000000062dc                mcp3912_is_ok
+ .text.start_leds_pwm
+                0x00000000000062f4       0xec build//uEMG/leds.c.o
+                0x00000000000062f4                start_leds_pwm
+ .text.PWM0_IRQHandler
+                0x00000000000063e0       0x3c build//uEMG/leds.c.o
+                0x00000000000063e0                PWM0_IRQHandler
+ .text.leds_init
+                0x000000000000641c       0x8c build//uEMG/leds.c.o
+                0x000000000000641c                leds_init
+ .text.val_to_cc
+                0x00000000000064a8       0x34 build//uEMG/leds.c.o
+                0x00000000000064a8                val_to_cc
+ .text.leds_pulse
+                0x00000000000064dc       0x50 build//uEMG/leds.c.o
+                0x00000000000064dc                leds_pulse
+ .text.nrf_gpio_pin_port_decode
+                0x000000000000652c       0x18 build//uEMG/bmi160.c.o
+ .text.nrf_gpio_cfg
+                0x0000000000006544       0x54 build//uEMG/bmi160.c.o
+ .text.nrf_gpio_cfg_output
+                0x0000000000006598       0x24 build//uEMG/bmi160.c.o
+ .text.nrf_gpio_cfg_input
+                0x00000000000065bc       0x2a build//uEMG/bmi160.c.o
+ *fill*         0x00000000000065e6        0x2 
+ .text.bmi_write_reg8
+                0x00000000000065e8       0x98 build//uEMG/bmi160.c.o
+                0x00000000000065e8                bmi_write_reg8
+ .text.bmi_read_reg8
+                0x0000000000006680       0xa0 build//uEMG/bmi160.c.o
+                0x0000000000006680                bmi_read_reg8
+ .text.bmi_read_buf
+                0x0000000000006720       0xc0 build//uEMG/bmi160.c.o
+                0x0000000000006720                bmi_read_buf
+ .text.bmi160_read
+                0x00000000000067e0      0x20c build//uEMG/bmi160.c.o
+                0x00000000000067e0                bmi160_read
+ .text.bmi160_read_steps
+                0x00000000000069ec       0x24 build//uEMG/bmi160.c.o
+                0x00000000000069ec                bmi160_read_steps
+ .text.bmi160_read_temp
+                0x0000000000006a10       0x70 build//uEMG/bmi160.c.o
+                0x0000000000006a10                bmi160_read_temp
+ .text.bmi160_normal_mode
+                0x0000000000006a80       0xec build//uEMG/bmi160.c.o
+                0x0000000000006a80                bmi160_normal_mode
+ .text.bmi160_init
+                0x0000000000006b6c       0x8c build//uEMG/bmi160.c.o
+                0x0000000000006b6c                bmi160_init
+ .text.bmi160_is_ok
+                0x0000000000006bf8       0x24 build//uEMG/bmi160.c.o
+                0x0000000000006bf8                bmi160_is_ok
+ .text.bmi160_get_data
+                0x0000000000006c1c       0x14 build//uEMG/bmi160.c.o
+                0x0000000000006c1c                bmi160_get_data
+ .text.fft8_real
+                0x0000000000006c30      0x470 build//uEMG/fft_opt.c.o
+                0x0000000000006c30                fft8_real
+ .text.sin_f    0x00000000000070a0      0x1ac build//uEMG/fast_math.c.o
+                0x00000000000070a0                sin_f
+ .text.cos_f    0x000000000000724c       0x30 build//uEMG/fast_math.c.o
+                0x000000000000724c                cos_f
+ .text.sin_small_f
+                0x000000000000727c       0x40 build//uEMG/fast_math.c.o
+                0x000000000000727c                sin_small_f
+ .text.cos_small_f
+                0x00000000000072bc       0x60 build//uEMG/fast_math.c.o
+                0x00000000000072bc                cos_small_f
+ *fill*         0x000000000000731c        0x4 
+ .text.sqrt_f   0x0000000000007320      0x19c build//uEMG/fast_math.c.o
+                0x0000000000007320                sqrt_f
+ .text.q_norm   0x00000000000074bc       0x6a build//uEMG/imu_fusion.c.o
+                0x00000000000074bc                q_norm
+ .text.v_norm   0x0000000000007526       0x56 build//uEMG/imu_fusion.c.o
+                0x0000000000007526                v_norm
+ .text.q_renorm
+                0x000000000000757c       0x8a build//uEMG/imu_fusion.c.o
+                0x000000000000757c                q_renorm
+ .text.v_renorm
+                0x0000000000007606       0x76 build//uEMG/imu_fusion.c.o
+                0x0000000000007606                v_renorm
+ .text.q_make_conj
+                0x000000000000767c       0x4e build//uEMG/imu_fusion.c.o
+                0x000000000000767c                q_make_conj
+ .text.q_mult   0x00000000000076ca      0x160 build//uEMG/imu_fusion.c.o
+                0x00000000000076ca                q_mult
+ .text.rotate_v
+                0x000000000000782a       0x6a build//uEMG/imu_fusion.c.o
+                0x000000000000782a                rotate_v
+ .text.v_mult   0x0000000000007894       0xb8 build//uEMG/imu_fusion.c.o
+                0x0000000000007894                v_mult
+ .text.v_dot    0x000000000000794c       0x50 build//uEMG/imu_fusion.c.o
+                0x000000000000794c                v_dot
+ .text.g_correction
+                0x000000000000799c      0x16c build//uEMG/imu_fusion.c.o
+                0x000000000000799c                g_correction
+ .text.update_rotation_m
+                0x0000000000007b08      0x15c build//uEMG/imu_fusion.c.o
+                0x0000000000007b08                update_rotation_m
+ .text.set_zero_position
+                0x0000000000007c64       0x34 build//uEMG/imu_fusion.c.o
+                0x0000000000007c64                set_zero_position
+ .text.imu_fusion_init
+                0x0000000000007c98        0xc build//uEMG/imu_fusion.c.o
+                0x0000000000007c98                imu_fusion_init
+ *fill*         0x0000000000007ca4        0x4 
+ .text.imu_fusion_process
+                0x0000000000007ca8      0x2bc build//uEMG/imu_fusion.c.o
+                0x0000000000007ca8                imu_fusion_process
+ .text.imu_fusion_get_q
+                0x0000000000007f64       0x14 build//uEMG/imu_fusion.c.o
+                0x0000000000007f64                imu_fusion_get_q
+ .text.NVIC_EnableIRQ
+                0x0000000000007f78       0x34 build//uEMG/urf_radio.c.o
+ .text.NVIC_DisableIRQ
+                0x0000000000007fac       0x34 build//uEMG/urf_radio.c.o
+ .text.NVIC_SetPriority
+                0x0000000000007fe0       0x54 build//uEMG/urf_radio.c.o
+ .text.rf_disable
+                0x0000000000008034       0x78 build//uEMG/urf_radio.c.o
+                0x0000000000008034                rf_disable
+ .text.rf_init_ext
+                0x00000000000080ac      0x188 build//uEMG/urf_radio.c.o
+                0x00000000000080ac                rf_init_ext
+ .text.rf_init  0x0000000000008234       0x34 build//uEMG/urf_radio.c.o
+                0x0000000000008234                rf_init
+ .text.rf_mode_rx_only
+                0x0000000000008268       0x48 build//uEMG/urf_radio.c.o
+                0x0000000000008268                rf_mode_rx_only
+ .text.rf_mode_tx_then_rx
+                0x00000000000082b0       0xac build//uEMG/urf_radio.c.o
+                0x00000000000082b0                rf_mode_tx_then_rx
+ .text.rf_listen
+                0x000000000000835c       0x2c build//uEMG/urf_radio.c.o
+                0x000000000000835c                rf_listen
+ .text.rf_send_and_listen
+                0x0000000000008388       0x78 build//uEMG/urf_radio.c.o
+                0x0000000000008388                rf_send_and_listen
+ .text.rf_has_new_packet
+                0x0000000000008400       0x28 build//uEMG/urf_radio.c.o
+                0x0000000000008400                rf_has_new_packet
+ .text.rf_get_packet
+                0x0000000000008428       0x54 build//uEMG/urf_radio.c.o
+                0x0000000000008428                rf_get_packet
+ .text.rf_clear_events
+                0x000000000000847c       0x74 build//uEMG/urf_radio.c.o
+                0x000000000000847c                rf_clear_events
+ .text.RADIO_IRQHandler
+                0x00000000000084f0      0x21c build//uEMG/urf_radio.c.o
+                0x00000000000084f0                RADIO_IRQHandler
+ .text.rf_is_busy
+                0x000000000000870c       0x18 build//uEMG/urf_radio.c.o
+                0x000000000000870c                rf_is_busy
+ .text.NVIC_EnableIRQ
+                0x0000000000008724       0x34 build//uEMG/urf_timer.c.o
+ .text.NVIC_SetPriority
+                0x0000000000008758       0x54 build//uEMG/urf_timer.c.o
+ .text.time_start
+                0x00000000000087ac       0x90 build//uEMG/urf_timer.c.o
+                0x00000000000087ac                time_start
+ .text.micros   0x000000000000883c       0x28 build//uEMG/urf_timer.c.o
+                0x000000000000883c                micros
+ .text.millis   0x0000000000008864       0x18 build//uEMG/urf_timer.c.o
+                0x0000000000008864                millis
+ .text.TIMER3_IRQHandler
+                0x000000000000887c       0xd0 build//uEMG/urf_timer.c.o
+                0x000000000000887c                TIMER3_IRQHandler
+ .text.TIMER2_IRQHandler
+                0x000000000000894c       0x88 build//uEMG/urf_timer.c.o
+                0x000000000000894c                TIMER2_IRQHandler
+ .text.delay_ms
+                0x00000000000089d4       0x40 build//uEMG/urf_timer.c.o
+                0x00000000000089d4                delay_ms
+ .text.star_init
+                0x0000000000008a14       0x54 build//uEMG/urf_star_protocol.c.o
+                0x0000000000008a14                star_init
+ .text.star_set_id
+                0x0000000000008a68       0x20 build//uEMG/urf_star_protocol.c.o
+                0x0000000000008a68                star_set_id
+ .text.star_queue_send
+                0x0000000000008a88       0x84 build//uEMG/urf_star_protocol.c.o
+                0x0000000000008a88                star_queue_send
+ .text.add_node
+                0x0000000000008b0c       0x74 build//uEMG/urf_star_protocol.c.o
+                0x0000000000008b0c                add_node
+ .text.update_node_list
+                0x0000000000008b80       0x94 build//uEMG/urf_star_protocol.c.o
+                0x0000000000008b80                update_node_list
+ .text.loop_central
+                0x0000000000008c14      0x294 build//uEMG/urf_star_protocol.c.o
+                0x0000000000008c14                loop_central
+ .text.loop_node
+                0x0000000000008ea8      0x1f4 build//uEMG/urf_star_protocol.c.o
+                0x0000000000008ea8                loop_node
+ .text.star_loop_step
+                0x000000000000909c       0x20 build//uEMG/urf_star_protocol.c.o
+                0x000000000000909c                star_loop_step
+ .text          0x00000000000090bc       0x3c build//uEMG/gcc_startup_nrf52.S.o
+                0x00000000000090bc                Reset_Handler
+                0x00000000000090e4                NMI_Handler
+                0x00000000000090e6                HardFault_Handler
+                0x00000000000090e8                MemoryManagement_Handler
+                0x00000000000090ea                BusFault_Handler
+                0x00000000000090ec                UsageFault_Handler
+                0x00000000000090ee                SVC_Handler
+                0x00000000000090f0                DebugMon_Handler
+                0x00000000000090f2                PendSV_Handler
+                0x00000000000090f4                SysTick_Handler
+                0x00000000000090f6                RTC0_IRQHandler
+                0x00000000000090f6                SWI0_EGU0_IRQHandler
+                0x00000000000090f6                SWI2_EGU2_IRQHandler
+                0x00000000000090f6                PWM1_IRQHandler
+                0x00000000000090f6                POWER_CLOCK_IRQHandler
+                0x00000000000090f6                PDM_IRQHandler
+                0x00000000000090f6                TEMP_IRQHandler
+                0x00000000000090f6                QDEC_IRQHandler
+                0x00000000000090f6                SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler
+                0x00000000000090f6                UARTE0_UART0_IRQHandler
+                0x00000000000090f6                TIMER4_IRQHandler
+                0x00000000000090f6                I2S_IRQHandler
+                0x00000000000090f6                SWI4_EGU4_IRQHandler
+                0x00000000000090f6                TIMER0_IRQHandler
+                0x00000000000090f6                TIMER1_IRQHandler
+                0x00000000000090f6                PWM2_IRQHandler
+                0x00000000000090f6                ECB_IRQHandler
+                0x00000000000090f6                SPIM1_SPIS1_TWIM1_TWIS1_SPI1_TWI1_IRQHandler
+                0x00000000000090f6                Default_Handler
+                0x00000000000090f6                SAADC_IRQHandler
+                0x00000000000090f6                CCM_AAR_IRQHandler
+                0x00000000000090f6                WDT_IRQHandler
+                0x00000000000090f6                SWI5_EGU5_IRQHandler
+                0x00000000000090f6                RNG_IRQHandler
+                0x00000000000090f6                RTC2_IRQHandler
+                0x00000000000090f6                SWI3_EGU3_IRQHandler
+                0x00000000000090f6                SWI1_EGU1_IRQHandler
+                0x00000000000090f6                SPIM2_SPIS2_SPI2_IRQHandler
+                0x00000000000090f6                NFCT_IRQHandler
+                0x00000000000090f6                MWU_IRQHandler
+                0x00000000000090f6                COMP_LPCOMP_IRQHandler
+ .text.NVIC_SystemReset
+                0x00000000000090f8       0x28 build//uEMG/system_nrf52.c.o
+ .text.SystemCoreClockUpdate
+                0x0000000000009120       0x1c build//uEMG/system_nrf52.c.o
+                0x0000000000009120                SystemCoreClockUpdate
+ .text.SystemInit
+                0x000000000000913c      0x2bc build//uEMG/system_nrf52.c.o
+                0x000000000000913c                SystemInit
+ .text.errata_12
+                0x00000000000093f8       0x64 build//uEMG/system_nrf52.c.o
+ .text.errata_16
+                0x000000000000945c       0x44 build//uEMG/system_nrf52.c.o
+ .text.errata_31
+                0x00000000000094a0       0x64 build//uEMG/system_nrf52.c.o
+ .text.errata_32
+                0x0000000000009504       0x44 build//uEMG/system_nrf52.c.o
+ .text.errata_36
+                0x0000000000009548       0x64 build//uEMG/system_nrf52.c.o
+ .text.errata_37
+                0x00000000000095ac       0x44 build//uEMG/system_nrf52.c.o
+ .text.errata_57
+                0x00000000000095f0       0x44 build//uEMG/system_nrf52.c.o
+ .text.errata_66
+                0x0000000000009634       0x44 build//uEMG/system_nrf52.c.o
+ .text.errata_108
+                0x0000000000009678       0x64 build//uEMG/system_nrf52.c.o
+ .text.errata_136
+                0x00000000000096dc       0x64 build//uEMG/system_nrf52.c.o
+ .text.exit     0x0000000000009740       0x28 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+                0x0000000000009740                exit
+ .text.__libc_init_array
+                0x0000000000009768       0x48 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                0x0000000000009768                __libc_init_array
+ .text.memset   0x00000000000097b0       0x10 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x00000000000097b0                memset
+ .text._exit    0x00000000000097c0        0x4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+                0x00000000000097c0                _exit
+ .text          0x00000000000097c4      0x378 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000000097c4                __aeabi_drsub
+                0x00000000000097cc                __aeabi_dsub
+                0x00000000000097cc                __subdf3
+                0x00000000000097d0                __adddf3
+                0x00000000000097d0                __aeabi_dadd
+                0x0000000000009a48                __aeabi_ui2d
+                0x0000000000009a48                __floatunsidf
+                0x0000000000009a68                __floatsidf
+                0x0000000000009a68                __aeabi_i2d
+                0x0000000000009a8c                __extendsfdf2
+                0x0000000000009a8c                __aeabi_f2d
+                0x0000000000009ad0                __aeabi_ul2d
+                0x0000000000009ad0                __floatundidf
+                0x0000000000009ae0                __floatdidf
+                0x0000000000009ae0                __aeabi_l2d
+ .text          0x0000000000009b3c      0x424 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+                0x0000000000009b3c                __aeabi_dmul
+                0x0000000000009b3c                __muldf3
+                0x0000000000009d90                __aeabi_ddiv
+                0x0000000000009d90                __divdf3
+ .text          0x0000000000009f60      0x110 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+                0x0000000000009f60                __gtdf2
+                0x0000000000009f60                __gedf2
+                0x0000000000009f68                __ltdf2
+                0x0000000000009f68                __ledf2
+                0x0000000000009f70                __cmpdf2
+                0x0000000000009f70                __eqdf2
+                0x0000000000009f70                __nedf2
+                0x0000000000009fec                __aeabi_cdrcmple
+                0x0000000000009ffc                __aeabi_cdcmple
+                0x0000000000009ffc                __aeabi_cdcmpeq
+                0x000000000000a00c                __aeabi_dcmpeq
+                0x000000000000a020                __aeabi_dcmplt
+                0x000000000000a034                __aeabi_dcmple
+                0x000000000000a048                __aeabi_dcmpge
+                0x000000000000a05c                __aeabi_dcmpgt
+ .text          0x000000000000a070       0xa0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+                0x000000000000a070                __aeabi_d2f
+                0x000000000000a070                __truncdfsf2
+ *(.init)
+ .init          0x000000000000a110        0x4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000000000a110                _init
+ .init          0x000000000000a114        0x8 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x000000000000a11c        0x4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000000000a11c                _fini
+ .fini          0x000000000000a120        0x8 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata._global_impure_ptr
+                0x000000000000a128        0x4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+                0x000000000000a128                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x000000000000a12c        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x000000000000a12c        0x4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+
+.glue_7         0x000000000000a130        0x0
+ .glue_7        0x000000000000a130        0x0 linker stubs
+
+.glue_7t        0x000000000000a130        0x0
+ .glue_7t       0x000000000000a130        0x0 linker stubs
+
+.vfp11_veneer   0x000000000000a130        0x0
+ .vfp11_veneer  0x000000000000a130        0x0 linker stubs
+
+.v4_bx          0x000000000000a130        0x0
+ .v4_bx         0x000000000000a130        0x0 linker stubs
+
+.iplt           0x000000000000a130        0x0
+ .iplt          0x000000000000a130        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.mem_section_dummy_rom
+
+.log_const_data
+                0x000000000000a130        0x0
+                [!provide]                        PROVIDE (__start_log_const_data = .)
+ *(.log_const_data)
+                [!provide]                        PROVIDE (__stop_log_const_data = .)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000000000000a130                __exidx_start = .
+
+.ARM.exidx      0x000000000000a130        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000000000000a130        0x8 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                0x000000000000a138                __exidx_end = .
+                0x000000000000a138                __etext = .
+
+.rel.dyn        0x000000000000a138        0x0
+ .rel.iplt      0x000000000000a138        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.data           0x0000000020000000       0xc4 load address 0x000000000000a138
+                0x0000000020000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.pin_button
+                0x0000000020000000        0x1 build//uEMG/main.c.o
+                0x0000000020000000                pin_button
+ .data.pin_syson
+                0x0000000020000001        0x1 build//uEMG/main.c.o
+                0x0000000020000001                pin_syson
+ *fill*         0x0000000020000002        0x2 
+ .data.battery_mv
+                0x0000000020000004        0x4 build//uEMG/main.c.o
+                0x0000000020000004                battery_mv
+ .data.mcp_buf_len
+                0x0000000020000008        0x1 build//uEMG/main.c.o
+                0x0000000020000008                mcp_buf_len
+ .data.emg_raw_data_send
+                0x0000000020000009        0x1 build//uEMG/main.c.o
+                0x0000000020000009                emg_raw_data_send
+ .data.radio_mode
+                0x000000002000000a        0x1 build//uEMG/main.c.o
+                0x000000002000000a                radio_mode
+ *fill*         0x000000002000000b        0x1 
+ .data.use_fft  0x000000002000000c        0x4 build//uEMG/mcp3912.c.o
+                0x000000002000000c                use_fft
+ .data.fft_size
+                0x0000000020000010        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000010                fft_size
+ .data.fft_buf_r
+                0x0000000020000014        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000014                fft_buf_r
+ .data.fft_buf_i
+                0x0000000020000018        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000018                fft_buf_i
+ .data.fft_stored_r
+                0x000000002000001c        0x4 build//uEMG/mcp3912.c.o
+                0x000000002000001c                fft_stored_r
+ .data.fft_stored_i
+                0x0000000020000020        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000020                fft_stored_i
+ .data.avg_m    0x0000000020000024        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000024                avg_m
+ .data.M_PI     0x0000000020000028        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000028                M_PI
+ .data.led_pwm_vals
+                0x000000002000002c       0x10 build//uEMG/leds.c.o
+                0x000000002000002c                led_pwm_vals
+ .data.imu_g_corrects
+                0x000000002000003c        0x4 build//uEMG/imu_fusion.c.o
+                0x000000002000003c                imu_g_corrects
+ .data.pack_max_length
+                0x0000000020000040        0x4 build//uEMG/urf_radio.c.o
+                0x0000000020000040                pack_max_length
+ .data.timer_ints_per_ms
+                0x0000000020000044        0x4 build//uEMG/urf_timer.c.o
+                0x0000000020000044                timer_ints_per_ms
+ .data.cycle_step_mcs
+                0x0000000020000048        0x4 build//uEMG/urf_star_protocol.c.o
+                0x0000000020000048                cycle_step_mcs
+ .data.star_unit_id
+                0x000000002000004c        0x4 build//uEMG/urf_star_protocol.c.o
+                0x000000002000004c                star_unit_id
+ .data.active_timeout
+                0x0000000020000050        0x4 build//uEMG/urf_star_protocol.c.o
+                0x0000000020000050                active_timeout
+ .data.no_ask_timeout
+                0x0000000020000054        0x4 build//uEMG/urf_star_protocol.c.o
+                0x0000000020000054                no_ask_timeout
+ .data.SystemCoreClock
+                0x0000000020000058        0x4 build//uEMG/system_nrf52.c.o
+                0x0000000020000058                SystemCoreClock
+ .data.impure_data
+                0x000000002000005c       0x60 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+                0x00000000200000bc                . = ALIGN (0x4)
+                0x00000000200000bc                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x00000000200000bc                PROVIDE (__preinit_array_end = .)
+                0x00000000200000bc                . = ALIGN (0x4)
+                0x00000000200000bc                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x00000000200000bc        0x4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x00000000200000c0                PROVIDE (__init_array_end = .)
+                0x00000000200000c0                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x00000000200000c0        0x4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x00000000200000c4                . = ALIGN (0x4)
+                0x00000000200000c4                __data_end__ = .
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD build//uEMG/main.c.o
+LOAD build//uEMG/mcp3912.c.o
+LOAD build//uEMG/leds.c.o
+LOAD build//uEMG/bmi160.c.o
+LOAD build//uEMG/fft_opt.c.o
+LOAD build//uEMG/fast_math.c.o
+LOAD build//uEMG/imu_fusion.c.o
+LOAD build//uEMG/urf_radio.c.o
+LOAD build//uEMG/urf_timer.c.o
+LOAD build//uEMG/urf_star_protocol.c.o
+LOAD build//uEMG/gcc_startup_nrf52.S.o
+LOAD build//uEMG/system_nrf52.c.o
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+START GROUP
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+
+.igot.plt       0x00000000200000c4        0x0 load address 0x000000000000a1fc
+ .igot.plt      0x00000000200000c4        0x0 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x00000000200000c4                . = ALIGN (0x4)
+
+.mem_section_dummy_ram
+
+.log_dynamic_data
+                0x00000000200000c4        0x0
+                [!provide]                        PROVIDE (__start_log_dynamic_data = .)
+ *(.log_dynamic_data)
+                [!provide]                        PROVIDE (__stop_log_dynamic_data = .)
+
+.bss            0x00000000200000c4     0x1800 load address 0x000000000000a1fc
+                0x00000000200000c4                . = ALIGN (0x4)
+                0x00000000200000c4                __bss_start__ = .
+ *(.bss*)
+ .bss           0x00000000200000c4       0x1c /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.battery_level
+                0x00000000200000e0        0x1 build//uEMG/main.c.o
+                0x00000000200000e0                battery_level
+ .bss.packet_id
+                0x00000000200000e1        0x1 build//uEMG/main.c.o
+                0x00000000200000e1                packet_id
+ .bss.unsent_cnt
+                0x00000000200000e2        0x1 build//uEMG/main.c.o
+                0x00000000200000e2                unsent_cnt
+ .bss.mcp_data_id
+                0x00000000200000e3        0x1 build//uEMG/main.c.o
+                0x00000000200000e3                mcp_data_id
+ .bss.mcp_buf_pos
+                0x00000000200000e4        0x1 build//uEMG/main.c.o
+                0x00000000200000e4                mcp_buf_pos
+ .bss.mcp_cnt   0x00000000200000e5        0x1 build//uEMG/main.c.o
+                0x00000000200000e5                mcp_cnt
+ .bss.param_send_id
+                0x00000000200000e6        0x1 build//uEMG/main.c.o
+                0x00000000200000e6                param_send_id
+ .bss.part2_packet
+                0x00000000200000e7        0x1 build//uEMG/main.c.o
+                0x00000000200000e7                part2_packet
+ .bss.avg_emg   0x00000000200000e8       0x10 build//uEMG/main.c.o
+                0x00000000200000e8                avg_emg
+ .bss.emg_lvl   0x00000000200000f8       0x10 build//uEMG/main.c.o
+                0x00000000200000f8                emg_lvl
+ .bss.last_led_ms.9074
+                0x0000000020000108        0x4 build//uEMG/main.c.o
+ .bss.cal_cnt.9105
+                0x000000002000010c        0x4 build//uEMG/main.c.o
+ .bss.cur_fft_buf
+                0x0000000020000110        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000110                cur_fft_buf
+ .bss.cur_fft_pos
+                0x0000000020000114        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000114                cur_fft_pos
+ .bss.fft_data_ready
+                0x0000000020000118        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000118                fft_data_ready
+ .bss.sin50_w   0x000000002000011c       0x10 build//uEMG/mcp3912.c.o
+                0x000000002000011c                sin50_w
+ .bss.cos50_w   0x000000002000012c       0x10 build//uEMG/mcp3912.c.o
+                0x000000002000012c                cos50_w
+ .bss.sin60_w   0x000000002000013c       0x10 build//uEMG/mcp3912.c.o
+                0x000000002000013c                sin60_w
+ .bss.cos60_w   0x000000002000014c       0x10 build//uEMG/mcp3912.c.o
+                0x000000002000014c                cos60_w
+ .bss.tt        0x000000002000015c        0x4 build//uEMG/mcp3912.c.o
+                0x000000002000015c                tt
+ .bss.tt60      0x0000000020000160        0x4 build//uEMG/mcp3912.c.o
+                0x0000000020000160                tt60
+ .bss.mcp_has_new_data
+                0x0000000020000164        0x1 build//uEMG/mcp3912.c.o
+                0x0000000020000164                mcp_has_new_data
+ *fill*         0x0000000020000165        0x3 
+ .bss.filtered_values
+                0x0000000020000168       0x10 build//uEMG/mcp3912.c.o
+                0x0000000020000168                filtered_values
+ .bss.avg_vals  0x0000000020000178       0x10 build//uEMG/mcp3912.c.o
+                0x0000000020000178                avg_vals
+ .bss.in_mcp_processing
+                0x0000000020000188        0x1 build//uEMG/mcp3912.c.o
+                0x0000000020000188                in_mcp_processing
+ *fill*         0x0000000020000189        0x3 
+ .bss.init_ok   0x000000002000018c        0x4 build//uEMG/mcp3912.c.o
+                0x000000002000018c                init_ok
+ .bss.prev_bmi_time
+                0x0000000020000190        0x4 build//uEMG/imu_fusion.c.o
+ .bss.zWx       0x0000000020000194        0x4 build//uEMG/imu_fusion.c.o
+                0x0000000020000194                zWx
+ .bss.zWy       0x0000000020000198        0x4 build//uEMG/imu_fusion.c.o
+                0x0000000020000198                zWy
+ .bss.zWz       0x000000002000019c        0x4 build//uEMG/imu_fusion.c.o
+                0x000000002000019c                zWz
+ .bss.rx_packet_counter
+                0x00000000200001a0        0x4 build//uEMG/urf_radio.c.o
+                0x00000000200001a0                rx_packet_counter
+ .bss.last_processed_rx_packet
+                0x00000000200001a4        0x4 build//uEMG/urf_radio.c.o
+                0x00000000200001a4                last_processed_rx_packet
+ .bss.current_mode
+                0x00000000200001a8        0x1 build//uEMG/urf_radio.c.o
+                0x00000000200001a8                current_mode
+ *fill*         0x00000000200001a9        0x3 
+ .bss.ack_state
+                0x00000000200001ac        0x4 build//uEMG/urf_radio.c.o
+                0x00000000200001ac                ack_state
+ .bss.resp_length
+                0x00000000200001b0        0x1 build//uEMG/urf_radio.c.o
+                0x00000000200001b0                resp_length
+ .bss.auto_respond
+                0x00000000200001b1        0x1 build//uEMG/urf_radio.c.o
+                0x00000000200001b1                auto_respond
+ *fill*         0x00000000200001b2        0x2 
+ .bss.rf_irq_override
+                0x00000000200001b4        0x4 build//uEMG/urf_radio.c.o
+                0x00000000200001b4                rf_irq_override
+ .bss.rf_rx_irq
+                0x00000000200001b8        0x4 build//uEMG/urf_radio.c.o
+                0x00000000200001b8                rf_rx_irq
+ .bss.rf_tx_irq
+                0x00000000200001bc        0x4 build//uEMG/urf_radio.c.o
+                0x00000000200001bc                rf_tx_irq
+ .bss.rf_busy   0x00000000200001c0        0x4 build//uEMG/urf_radio.c.o
+                0x00000000200001c0                rf_busy
+ .bss.mcs_time  0x00000000200001c4        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001c4                mcs_time
+ .bss.ms_time   0x00000000200001c8        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001c8                ms_time
+ .bss.s_time    0x00000000200001cc        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001cc                s_time
+ .bss.ms_counter
+                0x00000000200001d0        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001d0                ms_counter
+ .bss.s_counter
+                0x00000000200001d4        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001d4                s_counter
+ .bss.timer_on  0x00000000200001d8        0x1 build//uEMG/urf_timer.c.o
+                0x00000000200001d8                timer_on
+ *fill*         0x00000000200001d9        0x3 
+ .bss.timed_event
+                0x00000000200001dc        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001dc                timed_event
+ .bss.timed_subevent
+                0x00000000200001e0        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001e0                timed_subevent
+ .bss.timed_event_delayed
+                0x00000000200001e4        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001e4                timed_event_delayed
+ .bss.timed_event_period
+                0x00000000200001e8        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001e8                timed_event_period
+ .bss.timed_event_adjustment
+                0x00000000200001ec        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001ec                timed_event_adjustment
+ .bss.timed_event_adjustment_state
+                0x00000000200001f0        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001f0                timed_event_adjustment_state
+ .bss.timed_subevent_enabled
+                0x00000000200001f4        0x4 build//uEMG/urf_timer.c.o
+                0x00000000200001f4                timed_subevent_enabled
+ .bss.role_central
+                0x00000000200001f8        0x4 build//uEMG/urf_star_protocol.c.o
+                0x00000000200001f8                role_central
+ .bss.cur_pack_len
+                0x00000000200001fc        0x4 build//uEMG/urf_star_protocol.c.o
+                0x00000000200001fc                cur_pack_len
+ .bss.buf_pack_len
+                0x0000000020000200        0x4 build//uEMG/urf_star_protocol.c.o
+                0x0000000020000200                buf_pack_len
+ .bss.star_has_new_packet
+                0x0000000020000204        0x4 build//uEMG/urf_star_protocol.c.o
+                0x0000000020000204                star_has_new_packet
+ .bss.cycle_phase
+                0x0000000020000208        0x4 build//uEMG/urf_star_protocol.c.o
+                0x0000000020000208                cycle_phase
+ .bss.active_nodes
+                0x000000002000020c        0x4 build//uEMG/urf_star_protocol.c.o
+                0x000000002000020c                active_nodes
+ .bss.last_phase_start
+                0x0000000020000210        0x4 build//uEMG/urf_star_protocol.c.o
+                0x0000000020000210                last_phase_start
+ .bss.last_sync_time
+                0x0000000020000214        0x4 build//uEMG/urf_star_protocol.c.o
+                0x0000000020000214                last_sync_time
+ .bss.last_asked_time
+                0x0000000020000218        0x4 build//uEMG/urf_star_protocol.c.o
+                0x0000000020000218                last_asked_time
+ *(COMMON)
+ COMMON         0x000000002000021c      0x358 build//uEMG/main.c.o
+                0x000000002000021c                mcp
+                0x0000000020000228                mcp_buf_sp2
+                0x0000000020000268                data_packet
+                0x000000002000036c                mcp_buffer
+ COMMON         0x0000000020000574      0xb20 build//uEMG/mcp3912.c.o
+                0x0000000020000574                fft_spectr
+                0x0000000020000774                prev_emg_raw
+                0x00000000200007f4                fft_buf1_r
+                0x00000000200009f4                fft_buf1_i
+                0x0000000020000bf4                emg_raw
+                0x0000000020000c74                conf0_reg
+                0x0000000020000c78                gain_reg
+                0x0000000020000c7c                conf1_reg
+                0x0000000020000c80                fft_buf2_r
+                0x0000000020000e80                statcom_reg
+                0x0000000020000e84                fft_buf2_i
+                0x0000000020001084                cur_data
+ COMMON         0x0000000020001094       0x24 build//uEMG/leds.c.o
+                0x0000000020001094                led_pin_mask
+                0x00000000200010a4                led_pins
+                0x00000000200010a8                pwm_seq
+ COMMON         0x00000000200010b8       0x68 build//uEMG/bmi160.c.o
+                0x00000000200010b8                stat
+                0x00000000200010bc                bmi
+ COMMON         0x0000000020001120       0x20 build//uEMG/imu_fusion.c.o
+                0x0000000020001120                Qsg
+                0x0000000020001130                cur_q
+ COMMON         0x0000000020001140      0x244 build//uEMG/urf_radio.c.o
+                0x0000000020001140                resp_crc_fail
+                0x0000000020001160                resp_crc_ok
+                0x0000000020001180                tx_packet
+                0x0000000020001280                rx_packet
+                0x0000000020001380                pack_payload
+ COMMON         0x0000000020001384      0x540 build//uEMG/urf_star_protocol.c.o
+                0x0000000020001384                in_pack
+                0x0000000020001484                buf_pack
+                0x0000000020001584                node_list
+                0x0000000020001684                node_active
+                0x0000000020001784                cur_out_pack
+                0x0000000020001884                node_pack_id
+                0x00000000200018c4                . = ALIGN (0x4)
+                0x00000000200018c4                __bss_end__ = .
+
+.heap           0x00000000200018c8     0x4000
+                0x00000000200018c8                __HeapBase = .
+                0x00000000200018c8                __end__ = .
+                [!provide]                        PROVIDE (end = .)
+ *(.heap*)
+ .heap          0x00000000200018c8     0x4000 build//uEMG/gcc_startup_nrf52.S.o
+                0x00000000200058c8                __HeapLimit = .
+
+.stack_dummy    0x00000000200018c8     0x4000
+ *(.stack*)
+ .stack         0x00000000200018c8     0x4000 build//uEMG/gcc_startup_nrf52.S.o
+                0x0000000020010000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x000000002000c000                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000020010000                PROVIDE (__stack = __StackTop)
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+                0x00000000000000c4                DataInitFlashUsed = (__bss_start__ - __data_start__)
+                0x0000000000006138                CodeFlashUsed = (__etext - ORIGIN (FLASH))
+                0x00000000000061fc                TotalFlashUsed = (CodeFlashUsed + DataInitFlashUsed)
+                0x0000000000000001                ASSERT ((TotalFlashUsed <= LENGTH (FLASH)), region FLASH overflowed with .data and user data)
+OUTPUT(build//uEMG.out elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x34 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000052       0x1c /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x000000000000006e       0x34 build//uEMG/main.c.o
+ .ARM.attributes
+                0x00000000000000a2       0x34 build//uEMG/mcp3912.c.o
+ .ARM.attributes
+                0x00000000000000d6       0x34 build//uEMG/leds.c.o
+ .ARM.attributes
+                0x000000000000010a       0x34 build//uEMG/bmi160.c.o
+ .ARM.attributes
+                0x000000000000013e       0x34 build//uEMG/fft_opt.c.o
+ .ARM.attributes
+                0x0000000000000172       0x34 build//uEMG/fast_math.c.o
+ .ARM.attributes
+                0x00000000000001a6       0x34 build//uEMG/imu_fusion.c.o
+ .ARM.attributes
+                0x00000000000001da       0x34 build//uEMG/urf_radio.c.o
+ .ARM.attributes
+                0x000000000000020e       0x34 build//uEMG/urf_timer.c.o
+ .ARM.attributes
+                0x0000000000000242       0x34 build//uEMG/urf_star_protocol.c.o
+ .ARM.attributes
+                0x0000000000000276       0x20 build//uEMG/gcc_startup_nrf52.S.o
+ .ARM.attributes
+                0x0000000000000296       0x34 build//uEMG/system_nrf52.c.o
+ .ARM.attributes
+                0x00000000000002ca       0x34 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000000002fe       0x32 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000330       0x34 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000364       0x34 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000398       0x34 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000000003cc       0x1e /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000000000003ea       0x1e /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x0000000000000408       0x1e /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000000000000426       0x1e /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x0000000000000444       0x32 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x0000000000000476       0x1e /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/crtn.o
+
+.comment        0x0000000000000000       0x75
+ .comment       0x0000000000000000       0x75 build//uEMG/main.c.o
+                                         0x76 (size before relaxing)
+ .comment       0x0000000000000075       0x76 build//uEMG/mcp3912.c.o
+ .comment       0x0000000000000075       0x76 build//uEMG/leds.c.o
+ .comment       0x0000000000000075       0x76 build//uEMG/bmi160.c.o
+ .comment       0x0000000000000075       0x76 build//uEMG/fft_opt.c.o
+ .comment       0x0000000000000075       0x76 build//uEMG/fast_math.c.o
+ .comment       0x0000000000000075       0x76 build//uEMG/imu_fusion.c.o
+ .comment       0x0000000000000075       0x76 build//uEMG/urf_radio.c.o
+ .comment       0x0000000000000075       0x76 build//uEMG/urf_timer.c.o
+ .comment       0x0000000000000075       0x76 build//uEMG/urf_star_protocol.c.o
+ .comment       0x0000000000000075       0x76 build//uEMG/system_nrf52.c.o
+
+.debug_info     0x0000000000000000     0xd401
+ .debug_info    0x0000000000000000     0x2e8a build//uEMG/main.c.o
+ .debug_info    0x0000000000002e8a     0x27f5 build//uEMG/mcp3912.c.o
+ .debug_info    0x000000000000567f      0xfb9 build//uEMG/leds.c.o
+ .debug_info    0x0000000000006638     0x1379 build//uEMG/bmi160.c.o
+ .debug_info    0x00000000000079b1      0x578 build//uEMG/fft_opt.c.o
+ .debug_info    0x0000000000007f29      0x172 build//uEMG/fast_math.c.o
+ .debug_info    0x000000000000809b     0x10b8 build//uEMG/imu_fusion.c.o
+ .debug_info    0x0000000000009153     0x19ef build//uEMG/urf_radio.c.o
+ .debug_info    0x000000000000ab42      0xafe build//uEMG/urf_timer.c.o
+ .debug_info    0x000000000000b640      0xc04 build//uEMG/urf_star_protocol.c.o
+ .debug_info    0x000000000000c244       0x26 build//uEMG/gcc_startup_nrf52.S.o
+ .debug_info    0x000000000000c26a     0x1197 build//uEMG/system_nrf52.c.o
+
+.debug_abbrev   0x0000000000000000     0x1fb7
+ .debug_abbrev  0x0000000000000000      0x42b build//uEMG/main.c.o
+ .debug_abbrev  0x000000000000042b      0x4fd build//uEMG/mcp3912.c.o
+ .debug_abbrev  0x0000000000000928      0x2cd build//uEMG/leds.c.o
+ .debug_abbrev  0x0000000000000bf5      0x40b build//uEMG/bmi160.c.o
+ .debug_abbrev  0x0000000000001000       0xf9 build//uEMG/fft_opt.c.o
+ .debug_abbrev  0x00000000000010f9       0xbe build//uEMG/fast_math.c.o
+ .debug_abbrev  0x00000000000011b7      0x354 build//uEMG/imu_fusion.c.o
+ .debug_abbrev  0x000000000000150b      0x40a build//uEMG/urf_radio.c.o
+ .debug_abbrev  0x0000000000001915      0x25c build//uEMG/urf_timer.c.o
+ .debug_abbrev  0x0000000000001b71      0x224 build//uEMG/urf_star_protocol.c.o
+ .debug_abbrev  0x0000000000001d95       0x14 build//uEMG/gcc_startup_nrf52.S.o
+ .debug_abbrev  0x0000000000001da9      0x20e build//uEMG/system_nrf52.c.o
+
+.debug_aranges  0x0000000000000000      0x6a8
+ .debug_aranges
+                0x0000000000000000       0xc0 build//uEMG/main.c.o
+ .debug_aranges
+                0x00000000000000c0      0x140 build//uEMG/mcp3912.c.o
+ .debug_aranges
+                0x0000000000000200       0x40 build//uEMG/leds.c.o
+ .debug_aranges
+                0x0000000000000240       0xb8 build//uEMG/bmi160.c.o
+ .debug_aranges
+                0x00000000000002f8       0x28 build//uEMG/fft_opt.c.o
+ .debug_aranges
+                0x0000000000000320       0x40 build//uEMG/fast_math.c.o
+ .debug_aranges
+                0x0000000000000360       0xa0 build//uEMG/imu_fusion.c.o
+ .debug_aranges
+                0x0000000000000400       0xe0 build//uEMG/urf_radio.c.o
+ .debug_aranges
+                0x00000000000004e0       0xc0 build//uEMG/urf_timer.c.o
+ .debug_aranges
+                0x00000000000005a0       0x68 build//uEMG/urf_star_protocol.c.o
+ .debug_aranges
+                0x0000000000000608       0x20 build//uEMG/gcc_startup_nrf52.S.o
+ .debug_aranges
+                0x0000000000000628       0x80 build//uEMG/system_nrf52.c.o
+
+.debug_ranges   0x0000000000000000      0x5f0
+ .debug_ranges  0x0000000000000000       0xb0 build//uEMG/main.c.o
+ .debug_ranges  0x00000000000000b0      0x130 build//uEMG/mcp3912.c.o
+ .debug_ranges  0x00000000000001e0       0x30 build//uEMG/leds.c.o
+ .debug_ranges  0x0000000000000210       0xa8 build//uEMG/bmi160.c.o
+ .debug_ranges  0x00000000000002b8       0x18 build//uEMG/fft_opt.c.o
+ .debug_ranges  0x00000000000002d0       0x30 build//uEMG/fast_math.c.o
+ .debug_ranges  0x0000000000000300       0x90 build//uEMG/imu_fusion.c.o
+ .debug_ranges  0x0000000000000390       0xd0 build//uEMG/urf_radio.c.o
+ .debug_ranges  0x0000000000000460       0xb0 build//uEMG/urf_timer.c.o
+ .debug_ranges  0x0000000000000510       0x70 build//uEMG/urf_star_protocol.c.o
+ .debug_ranges  0x0000000000000580       0x70 build//uEMG/system_nrf52.c.o
+
+.debug_line     0x0000000000000000     0x6304
+ .debug_line    0x0000000000000000      0xbf9 build//uEMG/main.c.o
+ .debug_line    0x0000000000000bf9     0x15d3 build//uEMG/mcp3912.c.o
+ .debug_line    0x00000000000021cc      0x436 build//uEMG/leds.c.o
+ .debug_line    0x0000000000002602      0x9b5 build//uEMG/bmi160.c.o
+ .debug_line    0x0000000000002fb7      0x9b0 build//uEMG/fft_opt.c.o
+ .debug_line    0x0000000000003967      0x1c5 build//uEMG/fast_math.c.o
+ .debug_line    0x0000000000003b2c      0x7cb build//uEMG/imu_fusion.c.o
+ .debug_line    0x00000000000042f7      0xa9d build//uEMG/urf_radio.c.o
+ .debug_line    0x0000000000004d94      0x61b build//uEMG/urf_timer.c.o
+ .debug_line    0x00000000000053af      0x6e7 build//uEMG/urf_star_protocol.c.o
+ .debug_line    0x0000000000005a96       0xaf build//uEMG/gcc_startup_nrf52.S.o
+ .debug_line    0x0000000000005b45      0x7bf build//uEMG/system_nrf52.c.o
+
+.debug_str      0x0000000000000000     0x2c2c
+ .debug_str     0x0000000000000000     0x1415 build//uEMG/main.c.o
+                                       0x1506 (size before relaxing)
+ .debug_str     0x0000000000001415      0x8d2 build//uEMG/mcp3912.c.o
+                                       0x1358 (size before relaxing)
+ .debug_str     0x0000000000001ce7      0x16b build//uEMG/leds.c.o
+                                        0x843 (size before relaxing)
+ .debug_str     0x0000000000001e52      0x127 build//uEMG/bmi160.c.o
+                                        0xb02 (size before relaxing)
+ .debug_str     0x0000000000001f79       0xe0 build//uEMG/fft_opt.c.o
+                                        0x2ba (size before relaxing)
+ .debug_str     0x0000000000002059       0x41 build//uEMG/fast_math.c.o
+                                        0x17c (size before relaxing)
+ .debug_str     0x000000000000209a      0x15d build//uEMG/imu_fusion.c.o
+                                        0x7c4 (size before relaxing)
+ .debug_str     0x00000000000021f7      0x3fe build//uEMG/urf_radio.c.o
+                                       0x100a (size before relaxing)
+ .debug_str     0x00000000000025f5      0x20e build//uEMG/urf_timer.c.o
+                                        0x86a (size before relaxing)
+ .debug_str     0x0000000000002803      0x21b build//uEMG/urf_star_protocol.c.o
+                                        0x70a (size before relaxing)
+ .debug_str     0x0000000000002a1e       0x6f build//uEMG/gcc_startup_nrf52.S.o
+                                         0x9e (size before relaxing)
+ .debug_str     0x0000000000002a8d      0x19f build//uEMG/system_nrf52.c.o
+                                        0x7a2 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1b98
+ .debug_frame   0x0000000000000000      0x2c0 build//uEMG/main.c.o
+ .debug_frame   0x00000000000002c0      0x58c build//uEMG/mcp3912.c.o
+ .debug_frame   0x000000000000084c       0xcc build//uEMG/leds.c.o
+ .debug_frame   0x0000000000000918      0x2c8 build//uEMG/bmi160.c.o
+ .debug_frame   0x0000000000000be0       0x60 build//uEMG/fft_opt.c.o
+ .debug_frame   0x0000000000000c40       0xd4 build//uEMG/fast_math.c.o
+ .debug_frame   0x0000000000000d14      0x284 build//uEMG/imu_fusion.c.o
+ .debug_frame   0x0000000000000f98      0x37c build//uEMG/urf_radio.c.o
+ .debug_frame   0x0000000000001314      0x2e8 build//uEMG/urf_timer.c.o
+ .debug_frame   0x00000000000015fc      0x180 build//uEMG/urf_star_protocol.c.o
+ .debug_frame   0x000000000000177c      0x1a4 build//uEMG/system_nrf52.c.o
+ .debug_frame   0x0000000000001920       0x28 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000001948       0x2c /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000001974       0x20 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001994       0x20 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .debug_frame   0x00000000000019b4       0xac /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000001a60       0x50 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000001ab0       0xc4 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000001b74       0x24 /home/the_3d6/devtools/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
